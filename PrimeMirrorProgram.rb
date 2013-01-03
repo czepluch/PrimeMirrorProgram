@@ -15,6 +15,7 @@ def get_binary_mirror(number)
     number.to_s(2).reverse
 end
 
+# Makes an array of the first number ammount of primes and checks when numner occurs
 def prime_number(number)
     p_arr = Prime.first number
     if p_arr.include?(number)
